@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+header {
+    margin: 25px;
+    position: relative;
+}
+
+#header-container {
+    display: inline-block;
+    width: 100%;
+    height: 85vh;
+    /* margin: 30px; */
+    background: linear-gradient(90deg, #dbdadadc, transparent), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#topbar {
+    display: flex;
+    margin-top: 25px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: space-evenly;
+}
+
+#logo {
+    height: 110px;
+    display: inline-block;
+    /* background-color: #e47312; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #logo>a {
+    visibility: hidden;
+} */
+
+#logo>a>img {
+    margin-left: 58px;
+    width: 78px;
+    padding: 42px 34px;
+    background-color: #e47312;
+}
+
+#navbar {
+    background-color: #ffffff;
+    width: 70%;
+    height: 18px;
+    padding: 32px 35px;
+}
+
+#navbar>ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+#navbar>ul>li {
+    font-size: 11px;
+    margin: 0 11px;
+    color: #000000;
+}
+
+#navbar>ul>li>#home {
+    color: #e47312;
+}
+
+#navbar>ul>li>a {
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.fa-caret-down {
+    margin-left: 8px;
+}
+
+#hamburger {
+    display: none;
+}
+
+#navbar>ul>li>a:hover {
+    color: #e47312;
+}
+
+/* a>.upper-v-border {
+    border-left: 2px solid #e47312;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 13%;
+}
+
+a>.lower-v-border {
+    border-left: 2px solid #e47312;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 27%;
+} */
+
+/* #navbar>ul>li::before {
+    border-left: 2px solid #e47312;
+    height: 50px;
+} */
+
+#quote {
+    margin-right: 57px;
+}
+
+#quote>a>h6 {
+    color: #ffffff;
+    background-color: #e47312;
+    width: 122px;
+    font-size: 11px;
+    padding: 30px 7px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#quote>a>h6:hover {
+    background-color: #e98a38;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0a1229;
+    width: 60px;
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+
+#social-media>a {
+    color: #ffffff;
+    padding: 11px 11px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ffffff7c;
+}
+
+#social-media>a:nth-of-type(4) {
+    border-bottom: none;
+}
+
+#below-topbar {
+    margin-left: 61px;
+}
+
+#main-heading {
+    /* display: inline-block; */
+    color: #fff;
+    /* font-size: 54px; */
+    font-size: 61px;
+    /* height: 178px; */
+    margin-top: 35px;
+    /* margin-top: 20px; */
+    /* padding-right: 100px; */
+}
+
+#main-heading+p {
+    margin-top: -24px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+#quote-btn {
+    padding: 11px 32px;
+    background-color: #e47312;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+#quote-btn:hover {
+    background-color: #e98a38;
+}
+
+#details-container {
+    position: absolute;
+    bottom: -100px;
+    right: 0px;
+    display: flex;
+    color: #fff;
+    /* margin-left: 350px; */
+    justify-content: space-evenly;
+    width: 75%;
+    background: linear-gradient(200deg, #e47312, #f72622);
+    padding: 59px 0 59px;
+    /* margin-bottom: 100px; */
+}
+
+#details-container>div {
+    height: 115px;
+}
+
+#details-container>div>img {
+    width: 24px;
+    margin-bottom: 15px;
+}
+
+#details-container>div>h1 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#details-container>div>p {
+    color: #ffffffa2;
+}
+
+#details-container>div>a {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+#details-container>div>a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#opening {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+#companies {
+    margin: 500px 25px 0 -60px;
+    display: flex;
+    background: linear-gradient(90deg, #e47312 20%, #ff6361);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+#trust {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#companies>img {
+    width: 100px;
+    cursor: pointer;
+}
